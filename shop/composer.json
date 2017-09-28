@@ -8,6 +8,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.4",
+        "baklysystems/laravel-shop": "^0.2.15",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "aimeos/aimeos-laravel": "~2017.07"
