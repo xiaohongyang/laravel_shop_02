@@ -4,8 +4,693 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "96098e473b028cdb2529580554a1ae3e",
+    "content-hash": "1c592462112c43224c7e9a3e366d43a0",
     "packages": [
+        {
+            "name": "aimeos/ai-admin-extadm",
+            "version": "2017.07.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-admin-extadm.git",
+                "reference": "99364f9657310fd3dc8b3e95bbd3aea67078d1f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-admin-extadm/99364f9657310fd3dc8b3e95bbd3aea67078d1f1.zip",
+                "reference": "99364f9657310fd3dc8b3e95bbd3aea67078d1f1",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Controller\\ExtJS\\": "controller/extjs/src/Controller/ExtJS/"
+                },
+                "classmap": [
+                    "controller/extjs/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Aimeos ai-admin-extadm extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "ExtJS admin interface",
+                "aimeos",
+                "extension"
+            ],
+            "time": "2017-07-03T11:07:36+00:00"
+        },
+        {
+            "name": "aimeos/ai-admin-jqadm",
+            "version": "2017.07.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-admin-jqadm.git",
+                "reference": "ada438aa35620569680f00734bb0cabf982352b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-admin-jqadm/ada438aa35620569680f00734bb0cabf982352b6.zip",
+                "reference": "ada438aa35620569680f00734bb0cabf982352b6",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Admin\\JQAdm\\": "admin/jqadm/src/Admin/JQAdm/",
+                    "Aimeos\\MW\\": "lib/custom/src/MW"
+                },
+                "classmap": [
+                    "admin/jqadm/src",
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Aimeos ai-admin-jqadm extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "JQuery admin interface",
+                "aimeos",
+                "extension"
+            ],
+            "time": "2017-08-31T14:05:47+00:00"
+        },
+        {
+            "name": "aimeos/ai-admin-jsonadm",
+            "version": "2017.07.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-admin-jsonadm.git",
+                "reference": "8be343f86ac905db656d17a7ab235e9223aa3ae2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-admin-jsonadm/8be343f86ac905db656d17a7ab235e9223aa3ae2.zip",
+                "reference": "8be343f86ac905db656d17a7ab235e9223aa3ae2",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "zendframework/zend-diactoros": "~1.3"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Admin\\Jsonadm\\": "admin/jsonadm/src/Admin/Jsonadm/"
+                },
+                "classmap": [
+                    "admin/jsonadm/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Aimeos ai-admin-jsonadm extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "admin",
+                "aimeos",
+                "extension",
+                "json api"
+            ],
+            "time": "2017-07-11T15:41:05+00:00"
+        },
+        {
+            "name": "aimeos/ai-client-html",
+            "version": "2017.07.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-client-html.git",
+                "reference": "84a2c860dd8dbaf5dc017f4b7ce3782aa16fede4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-client-html/84a2c860dd8dbaf5dc017f4b7ce3782aa16fede4.zip",
+                "reference": "84a2c860dd8dbaf5dc017f4b7ce3782aa16fede4",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/ai-controller-frontend": "~2017.07",
+                "aimeos/ai-controller-jobs": "~2017.07",
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Client\\Html\\": "client/html/src/Client/Html/",
+                    "Aimeos\\Controller\\Jobs\\": "client/html/src/Controller/Jobs/"
+                },
+                "classmap": [
+                    "client/html/src",
+                    "controller/jobs/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Aimeos ai-client-html extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "aimeos",
+                "client",
+                "extension",
+                "html"
+            ],
+            "time": "2017-09-15T11:27:01+00:00"
+        },
+        {
+            "name": "aimeos/ai-client-jsonapi",
+            "version": "2017.07.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-client-jsonapi.git",
+                "reference": "c64fe7a1ae59408f66fee86a32e1e1d5ab54378e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-client-jsonapi/c64fe7a1ae59408f66fee86a32e1e1d5ab54378e.zip",
+                "reference": "c64fe7a1ae59408f66fee86a32e1e1d5ab54378e",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/ai-controller-frontend": "~2017.07",
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.4.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Client\\JsonApi\\": "client/jsonapi/src/Client/JsonApi/"
+                },
+                "classmap": [
+                    "client/jsonapi/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Aimeos JSON API extension",
+            "keywords": [
+                "aimeos",
+                "api",
+                "extension",
+                "json"
+            ],
+            "time": "2017-07-03T11:51:32+00:00"
+        },
+        {
+            "name": "aimeos/ai-controller-frontend",
+            "version": "2017.07.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-controller-frontend.git",
+                "reference": "eba90318c770ae9d6ddaf027f2223bbe8065f775"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-controller-frontend/eba90318c770ae9d6ddaf027f2223bbe8065f775.zip",
+                "reference": "eba90318c770ae9d6ddaf027f2223bbe8065f775",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Controller\\Frontend\\": "controller/frontend/src/Controller/Frontend/"
+                },
+                "classmap": [
+                    "controller/frontend/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Aimeos ai-controller-frontend extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "aimeos",
+                "controller",
+                "extension",
+                "frontend"
+            ],
+            "time": "2017-07-14T23:11:48+00:00"
+        },
+        {
+            "name": "aimeos/ai-controller-jobs",
+            "version": "2017.07.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-controller-jobs.git",
+                "reference": "46dc9eb58e25d9ca802de8fed242c25a5051110c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-controller-jobs/46dc9eb58e25d9ca802de8fed242c25a5051110c.zip",
+                "reference": "46dc9eb58e25d9ca802de8fed242c25a5051110c",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\Controller\\Common\\": "controller/jobs/src/Controller/Common/",
+                    "Aimeos\\Controller\\Jobs\\": "controller/jobs/src/Controller/Jobs/"
+                },
+                "classmap": [
+                    "controller/common/src",
+                    "controller/jobs/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Aimeos ai-controller-jobs extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "aimeos",
+                "controller",
+                "extension",
+                "jobs"
+            ],
+            "time": "2017-07-03T11:07:37+00:00"
+        },
+        {
+            "name": "aimeos/ai-gettext",
+            "version": "2017.07.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-gettext.git",
+                "reference": "37277dc10b060d57235e7afb18ab54da36ba0394"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-gettext/37277dc10b060d57235e7afb18ab54da36ba0394.zip",
+                "reference": "37277dc10b060d57235e7afb18ab54da36ba0394",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\MW\\": "lib/mwlib/src/MW/"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Aimeos Gettext extension",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "aimeos",
+                "extension",
+                "gettext",
+                "performance"
+            ],
+            "time": "2017-07-03T11:07:37+00:00"
+        },
+        {
+            "name": "aimeos/ai-laravel",
+            "version": "2017.07.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-laravel.git",
+                "reference": "455514acab45b7708fb0b81701be97c49c6bc570"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-laravel/455514acab45b7708fb0b81701be97c49c6bc570.zip",
+                "reference": "455514acab45b7708fb0b81701be97c49c6bc570",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "laravel/framework": "~5.0",
+                "php": ">=5.3.3",
+                "zendframework/zend-diactoros": "~1.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\MW\\": "lib/custom/src/MW"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Laravel adapter for Aimeos web shops and e-commerce solutions",
+            "homepage": "https://aimeos.org/Laravel",
+            "keywords": [
+                "adapter",
+                "aimeos",
+                "e-commerce",
+                "laravel",
+                "shop"
+            ],
+            "time": "2017-07-16T13:27:03+00:00"
+        },
+        {
+            "name": "aimeos/ai-swiftmailer",
+            "version": "2017.07.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/ai-swiftmailer.git",
+                "reference": "9c9939660f033d56b72a5a72ee27408f99a25670"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/ai-swiftmailer/9c9939660f033d56b72a5a72ee27408f99a25670.zip",
+                "reference": "9c9939660f033d56b72a5a72ee27408f99a25670",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/aimeos-core": "~2017.07",
+                "composer/installers": "^1.0",
+                "php": ">=5.3.3",
+                "swiftmailer/swiftmailer": ">=4.0"
+            },
+            "type": "aimeos-extension",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\MW\\": "lib/custom/src/MW"
+                },
+                "classmap": [
+                    "lib/custom/src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "SwiftMailer adapter for Aimeos web shops and e-commerce solutions",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "adapter",
+                "aimeos",
+                "e-commerce",
+                "mail",
+                "shop",
+                "swiftmailer"
+            ],
+            "time": "2017-07-03T11:07:37+00:00"
+        },
+        {
+            "name": "aimeos/aimeos-core",
+            "version": "2017.07.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/aimeos-core.git",
+                "reference": "c83708637d5ec2f3374ae65ea6fc217427ea35e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/aimeos-core/c83708637d5ec2f3374ae65ea6fc217427ea35e3.zip",
+                "reference": "c83708637d5ec2f3374ae65ea6fc217427ea35e3",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/dbal": "~2.0",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-fileinfo": "*",
+                "ext-gd": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-pcre": "*",
+                "ext-pdo": "*",
+                "ext-zip": "*",
+                "php": "^5.4.0||^7.0.4",
+                "psr/http-message": "~1.0"
+            },
+            "require-dev": {
+                "phing/phing": "~2.4",
+                "phpunit/phpunit": "^4.8.35||^5.0",
+                "satooshi/php-coveralls": "dev-master",
+                "squizlabs/php_codesniffer": "~1.0",
+                "zendframework/zend-diactoros": "~1.3"
+            },
+            "suggest": {
+                "apigen/apigen": "Required for generating the API documentation"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aimeos\\MW\\": "lib/mwlib/src/MW/",
+                    "Aimeos\\MShop\\": "lib/mshoplib/src/MShop/",
+                    "Aimeos\\MAdmin\\": "lib/mshoplib/src/MAdmin/",
+                    "Aimeos\\Controller\\Common\\": "controller/common/src/Controller/Common/",
+                    "Aimeos\\Controller\\Jobs\\": "controller/common/src/Controller/Jobs/",
+                    "Aimeos\\": "."
+                },
+                "classmap": [
+                    "lib/mwlib/src",
+                    "lib/mshoplib/src",
+                    "controller/common/src",
+                    "controller/jobs/src",
+                    "Bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "Full-featured e-commerce components for high performance online shops",
+            "homepage": "https://aimeos.org/",
+            "keywords": [
+                "e-commerce",
+                "market place",
+                "portal",
+                "shop"
+            ],
+            "time": "2017-09-25T17:25:54+00:00"
+        },
+        {
+            "name": "aimeos/aimeos-laravel",
+            "version": "2017.07.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aimeos/aimeos-laravel.git",
+                "reference": "d61b805c3fd494aa641f5e098af1e3da0764016a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/aimeos/aimeos-laravel/d61b805c3fd494aa641f5e098af1e3da0764016a.zip",
+                "reference": "d61b805c3fd494aa641f5e098af1e3da0764016a",
+                "shasum": ""
+            },
+            "require": {
+                "aimeos/ai-admin-extadm": "2017.07.*",
+                "aimeos/ai-admin-jqadm": "2017.07.*",
+                "aimeos/ai-admin-jsonadm": "2017.07.*",
+                "aimeos/ai-client-html": "2017.07.*",
+                "aimeos/ai-client-jsonapi": "2017.07.*",
+                "aimeos/ai-controller-jobs": "2017.07.*",
+                "aimeos/ai-gettext": "2017.07.*",
+                "aimeos/ai-laravel": "2017.07.*",
+                "aimeos/ai-swiftmailer": "2017.07.*",
+                "aimeos/aimeos-core": "2017.07.*",
+                "doctrine/dbal": "~2.5",
+                "laravel/framework": "^5.1.11",
+                "symfony/psr-http-message-bridge": "~1.0",
+                "zendframework/zend-diactoros": "~1.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "orchestra/testbench": "~3.0",
+                "orchestra/testbench-browser-kit": "~3.1",
+                "phpunit/phpunit": "~4.0||~5.0",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "laravel-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Aimeos\\Shop\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Full-featured Laravel web shop package and e-commerce solution for high performance shops",
+            "homepage": "https://aimeos.org/Laravel",
+            "keywords": [
+                "aimeos",
+                "e-commerce",
+                "ecommerce",
+                "laravel",
+                "market place",
+                "portal",
+                "shop"
+            ],
+            "time": "2017-09-15T11:39:59+00:00"
+        },
+        {
+            "name": "composer/installers",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/composer/installers/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b.zip",
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2017-08-09T07:53:48+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
@@ -38,6 +723,355 @@
             ],
             "description": "implementation of xdg base directory specification for php",
             "time": "2014-10-24T07:27:01+00:00"
+        },
+        {
+            "name": "doctrine/annotations",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/annotations.git",
+                "reference": "54cacc9b81758b14e3ce750f205a393d52339e97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/doctrine/annotations/54cacc9b81758b14e3ce750f205a393d52339e97.zip",
+                "reference": "54cacc9b81758b14e3ce750f205a393d52339e97",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/lexer": "1.*",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "doctrine/cache": "1.*",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Docblock Annotations Parser",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "docblock",
+                "parser"
+            ],
+            "time": "2017-02-24T16:22:25+00:00"
+        },
+        {
+            "name": "doctrine/cache",
+            "version": "v1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/cache.git",
+                "reference": "eb152c5100571c7a45470ff2a35095ab3f3b900b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/doctrine/cache/eb152c5100571c7a45470ff2a35095ab3f3b900b.zip",
+                "reference": "eb152c5100571c7a45470ff2a35095ab3f3b900b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~5.5|~7.0"
+            },
+            "conflict": {
+                "doctrine/common": ">2.2,<2.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8|~5.0",
+                "predis/predis": "~1.0",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Caching library offering an object-oriented API for many cache backends",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "cache",
+                "caching"
+            ],
+            "time": "2017-07-22T12:49:21+00:00"
+        },
+        {
+            "name": "doctrine/collections",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/collections.git",
+                "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/doctrine/collections/1a4fb7e902202c33cce8c55989b945612943c2ba.zip",
+                "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "~0.1@dev",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Collections\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Collections Abstraction library",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "array",
+                "collections",
+                "iterator"
+            ],
+            "time": "2017-01-03T10:49:41+00:00"
+        },
+        {
+            "name": "doctrine/common",
+            "version": "v2.7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/common.git",
+                "reference": "4acb8f89626baafede6ee5475bc5844096eba8a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/doctrine/common/4acb8f89626baafede6ee5475bc5844096eba8a9.zip",
+                "reference": "4acb8f89626baafede6ee5475bc5844096eba8a9",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/annotations": "1.*",
+                "doctrine/cache": "1.*",
+                "doctrine/collections": "1.*",
+                "doctrine/inflector": "1.*",
+                "doctrine/lexer": "1.*",
+                "php": "~5.6|~7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.4.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Common\\": "lib/Doctrine/Common"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Common Library for Doctrine projects",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "annotations",
+                "collections",
+                "eventmanager",
+                "persistence",
+                "spl"
+            ],
+            "time": "2017-07-22T08:35:12+00:00"
+        },
+        {
+            "name": "doctrine/dbal",
+            "version": "v2.5.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/dbal.git",
+                "reference": "729340d8d1eec8f01bff708e12e449a3415af873"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/doctrine/dbal/729340d8d1eec8f01bff708e12e449a3415af873.zip",
+                "reference": "729340d8d1eec8f01bff708e12e449a3415af873",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": ">=2.4,<2.8-dev",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "symfony/console": "2.*||^3.0"
+            },
+            "suggest": {
+                "symfony/console": "For helpful console commands such as SQL execution and import of files."
+            },
+            "bin": [
+                "bin/doctrine-dbal"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\DBAL\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Database Abstraction Layer",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "database",
+                "dbal",
+                "persistence",
+                "queryobject"
+            ],
+            "time": "2017-07-22T20:44:48+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -105,6 +1139,60 @@
                 "string"
             ],
             "time": "2017-07-22T12:18:28+00:00"
+        },
+        {
+            "name": "doctrine/lexer",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/lexer.git",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/doctrine/lexer/83893c552fd2045dd78aef794c31e694c37c0b8c.zip",
+                "reference": "83893c552fd2045dd78aef794c31e694c37c0b8c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Doctrine\\Common\\Lexer\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "Base library for a lexer that can be used in Top-Down, Recursive Descent Parsers.",
+            "homepage": "http://www.doctrine-project.org",
+            "keywords": [
+                "lexer",
+                "parser"
+            ],
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -783,6 +1871,56 @@
                 "random"
             ],
             "time": "2017-09-27T21:40:39+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/php-fig/http-message/f6561bf28d520154e4b0ec72be95418abe6d9363.zip",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -1577,6 +2715,66 @@
             "time": "2017-07-29T21:54:42+00:00"
         },
         {
+            "name": "symfony/psr-http-message-bridge",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/psr-http-message-bridge.git",
+                "reference": "66085f246d3893cbdbcec5f5ad15ac60546cf0de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/symfony/psr-http-message-bridge/66085f246d3893cbdbcec5f5ad15ac60546cf0de.zip",
+                "reference": "66085f246d3893cbdbcec5f5ad15ac60546cf0de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "psr/http-message": "~1.0",
+                "symfony/http-foundation": "~2.3|~3.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "~2.7|~3.0"
+            },
+            "suggest": {
+                "psr/http-message-implementation": "To use the HttpFoundation factory",
+                "zendframework/zend-diactoros": "To use the Zend Diactoros factory"
+            },
+            "type": "symfony-bridge",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Bridge\\PsrHttpMessage\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "PSR HTTP message bridge",
+            "homepage": "http://symfony.com",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr-7"
+            ],
+            "time": "2016-09-14T18:37:20+00:00"
+        },
+        {
             "name": "symfony/routing",
             "version": "v3.3.9",
             "source": {
@@ -1883,6 +3081,58 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "zendframework/zend-diactoros",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendframework/zend-diactoros.git",
+                "reference": "2faa791b66bac33ca40031d8bce03b7dc8143490"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/zendframework/zend-diactoros/2faa791b66bac33ca40031d8bce03b7dc8143490.zip",
+                "reference": "2faa791b66bac33ca40031d8bce03b7dc8143490",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6 || ^7.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "phpunit/phpunit": "^5.7.16 || ^6.0.8",
+                "zendframework/zend-coding-standard": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6-dev",
+                    "dev-develop": "1.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Zend\\Diactoros\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "description": "PSR HTTP Message implementations",
+            "homepage": "https://github.com/zendframework/zend-diactoros",
+            "keywords": [
+                "http",
+                "psr",
+                "psr-7"
+            ],
+            "time": "2017-09-13T14:47:08+00:00"
         }
     ],
     "packages-dev": [
@@ -3361,9 +4611,9 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=5.6.4"
